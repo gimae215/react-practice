@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+div {
+  box-sizing: border-box;
+}
+
+.black-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
